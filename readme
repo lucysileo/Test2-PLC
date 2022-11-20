@@ -1,0 +1,66 @@
+Rules for recognizing lexemes
+It has identifiers that starts with a letter and followed by 0-x number of letters
+It has a string of constants and the sequence is enclosed by double quotations.
+It has integer constants that are defined as a sequence of numbers.
+It has four operators: +,-,*, and =
+3 keywords: print, int, and string
+Statements end in semicolons
+Supports parentheses
+White space is used to separate tokens and the lines
+Comment beings with two /
+Production rules
+Have to be letters before numbers
+String of constants
+Needs to be defined 
+PEMDAS
+Selecting statements needs to be something that’s easily readable 
+It does put pictures
+There’s no ambiguous grammar as everything is very understandable when reading it
+That’s the code above
+Same thing hopefully tha t or the part that will be written tomorrow because FUCK THIS SHIT
+Okay just write random things with wrong lexemes and explain what’s wrong
+num1 = 15:
+2 = 12
+ 
+# Adding two nos
+sum = num1 + 2
+ 
+# printing values
+print(Sum of 0 and 1 is 2" .format(num1, num2, sum))
+Needs a “ between ( and Sum
+No : after 15
+Can’t have a variable labeled with a number only
+Still needs to be labeled with something besides just a number in line 4
+Needs {} around all numbers in the last line to prove them ]
+	def swapList(newList):
+    size = len(newList)
+     
+    # Swapping
+    temp = newList[0
+    newList[0] = newList[size - 1]
+    newList[size - 1] == temp
+     
+    return newlist
+     
+# Driver code
+newList = [12, 5, 9, 56, 24]
+ 
+println(swapList(newList)))
+Needs a ] at the end of the 3rd row
+Only one = sign on line 5
+Capitalize L in newList
+Get rid of the ) on last line
+Only need print not println
+maximum = lambda ab:a if a > b else b
+print(f'{maximum(a,b)} is a maximum number')
+
+def factorial(n):
+     
+    # single line to find factorial
+    return 1 if (n==1 or n==0) else n * factorial(n - 1);
+ 
+# Driver Code
+num = 5;
+print("Factorial of",num,"is",
+factorial(num))
+ 
